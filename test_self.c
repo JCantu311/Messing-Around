@@ -46,6 +46,14 @@ int main()
     system("rustc testRust.rs");
     system("testRust.exe");
     system("pause");
+    printf("Also you gotta go assemble the assembly file that is associated with the operating system you're running\n");
+    printf("If you don't, this next part won't work\n");
+    system("pause");
+    #ifdef _WIN32 
+        system("test_asmWin");
+    #elif defined __linux__ 
+        system("test_asmLinux");
+    #endif
     printf("Enter 'loop' if you wish to restart\n");
     printf("Type anything else if you wish to quit: ");
     scanf("%s", loop1);
