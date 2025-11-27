@@ -4,12 +4,14 @@
 
 ;---ASM Hello World Win64 MessageBox
 
+; I do not know how to write assembly so I hope ts works lmao
+
 extrn MessageBoxA: PROC
 extrn ExitProcess: PROC
 
 .data
 title db 'Win64', 0
-msg db 'Hello World!', 0
+msg db 'test_asmWin.asm\n', 0
 
 .code
 main proc
