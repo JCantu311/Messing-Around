@@ -1,6 +1,7 @@
 ; x86_64 Exclusively
 ; Might try to make an aarch_64 compatible version in the future if I feel especially masochistic
 ; Lowkey might not even work, ts made for linux not windows too 🥀
+; I also wrote ts on an arm pc I do not think this works 
 
 .global _start
 .intel_syntax noprefix
