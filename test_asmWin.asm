@@ -11,7 +11,7 @@ extrn ExitProcess: PROC
 
 .data
 title db 'Win64', 0
-msg db 'test_asmWin.asm\n', 0
+msg db 'test_asmWin.asm (asm)\n', 0
 
 .code
 main proc
